@@ -54,7 +54,7 @@ final class BreakViewModel {
             // Uncomment below code to add a break before fetching the breaks.
             /*
             do {
-                let sch = try await breakService.seedMockBreak(for: userId)
+                let _ = try await breakService.seedMockBreak(for: userId)
             } catch {
                 print(error)
             }
